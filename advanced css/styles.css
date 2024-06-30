@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./assets/Object.png');
+    background-repeat: no-repeat;
+    height: 1055px;
+    /* padding: 5rem; */
+    padding-top: 1rem;
+}
+.logo{
+    padding-left: 5rem;
+}
+
+/* header{
+    display: inline;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    color: white;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: flex-end;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 4rem;
+    padding-top: 1rem;
+}
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12.5rem;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+.smile{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+    box-shadow: 0px 2px 20px 0px #00000080;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #C271FF;
+    color: white;
+    
+}
+.bee{
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    display: flex;
+    padding-bottom: 4rem;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    padding-top: 15rem;
+    display: flex;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+}
+.pros{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.phillip{
+    /* width: 150px;
+    height: 237px;
+    justify-content: center;
+    top: 758px;
+    left: 217px;
+    gap: 0px; */
+    opacity: 0px;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
+.thomas{
+    background: #C271FF;
+    color: white;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fill;
+    padding-top: 5rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.text{
+    padding-top: 2rem;
+    justify-content: center;
+    padding-left: 3rem;
+}
+.img{
+    position: relative;
+    display: inline-block;
+}
+.large{
+    display: block;
+}
+.small{
+    position: absolute;
+    top: 30px;
+    right:100px;
+    left: 100px;
+
+}
+.vid{
+    justify-content: wrap;
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 58px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+h2{
+    color: black;
+    padding: 0;
+    margin-top: 2rem;
+}
+.rate{
+    width: 30px;
+    height: 30px;
+    top: 261px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+}
+.aay{
+    display: flex;
+    justify-content: space-between;
+    color: #C271FF;
+}
+.aayy{
+    display: flex;
+    color: #C271FF;
+}
+h4{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    padding-right: 5px;
+}
+h3{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+}
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.pop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+.pee{
+    padding: 10rem;
+    padding-top: 0rem;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+.sme{
+    width: 257px;
+    height: 153px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.eye{
+    width: 43.67px;
+    height: 35.35px;
+    top: 0.03px;
+    left: 106.71px;
+    gap: 0px;
+    opacity: 0px;
+
+    position: absolute;
+    left: 10%;
+    top: -30%;
+    justify-content: center;
+}
+.color{
+    color: #C271FF;
+}
+.mem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+}
+.mee{
+    width: 215px;
+    height: 52px;
+    top: 101px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    /* text-align: center; */
+
+}
+.mer{
+    text-align: center;
+    width: 256px;
+    height: 26px;
+    top: 62px;
+    left: 0.5px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    color: white;
+}
+.free{
+    padding-top: 2rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    color: white;
+    display: flex;
+    margin: 0;
+    justify-items: center;
+}
+.member{
+    height: 502px;
+    background: #071629;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+.boot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.last{
+width: 920px;
+height: 707px;
+/* top: 2678px; */
+left: 249px;
+gap: 0px;
+opacity: 0px;
+align-content: center;
+}
+.las{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.quest{
+    width: 350px;
+    height: 242px;
+    top: 149px;
+    gap: 0px;
+    opacity: 0px;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+}
+.light{
+    display: flex;
+    /* padding: 2rem; */
+    justify-content: space-between;
+
+}
+.ask{
+    /* width: 136px; */
+    height: 75px;
+    /* left: 407px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Source Sans Pro';
+margin-top: 0;
+/* line-height: 75.42px; */
+text-align: center;
+
+
+}
+.abi{
+height: 249px;
+top: 3469px;
+background: #071629;
+padding-top: 8rem;
+margin-top: 0;
+padding: 6rem;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    width: 30px;
+height: 30px;
+top: 90px;
+left: 1070px;
+gap: 0px;
+opacity: 0px;
+background: #FFFFFF;
+display: flex;
+}
+.doo{
+    color: white;
+    text-align: center;
+    padding-top: 6rem;
+
+}
