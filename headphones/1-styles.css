@@ -617,4 +617,16 @@ a:hover{
         margin: 6px 0;
     }
 
+    .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      /* Fade out the second bar */
+      .change .bar2 {opacity: 0;}
+      
+      /* Rotate last bar */
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+
 }
