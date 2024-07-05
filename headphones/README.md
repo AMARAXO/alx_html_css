@@ -1,4 +1,4 @@
-Create an account in Figma and open this project and “Duplicate to your Drafts” to have access to all design details.
+Create an account in Figma and open this https://www.figma.com/file/TwFqqWGYvNYvxZxhdWXv4H/Holberton-School---Headphone-company (project) and “Duplicate to your Drafts” to have access to all design details.
 
 If you can’t access it, please find here the Figma file
 ![screenshot](./assets/readme.PNG)

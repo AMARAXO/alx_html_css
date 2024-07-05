@@ -88,6 +88,9 @@ button{
     display: flex;
     justify-content: center;
 }
+a:hover{
+    color: #FF6565;
+}
 
 .pee {
     display: flex;
@@ -211,8 +214,82 @@ button{
     text-align: center;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
 
-@media (max-width: 480px){
+form {
+    width: 335px;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+form h2 {
+    padding-top: 020px;
+    width: 146px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    opacity: 1;
+    color: black;
+}
+
+form label {
+    display: none; /* Hide the labels as they are not used */
+}
+
+form input {
+    width: 330px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    
+}
+
+
+form button {
+    width: 162px;
+    height: 44px;
+    top: 329px;
+    left: 86px;
+    color: white;
+    cursor: pointer;
+    background: #FF6565;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+.yet{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+form button:hover {
+    color: #FF6565;
+    opacity: 0.9
+}
+
+ .rec{
+    background: #071629;
+    padding: 0;
+    width: 330px;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 0;
+ }
+
+ @media (max-width: 480px) {
     body{
         max-width: 100vw;
         width: 480px;
@@ -350,4 +427,18 @@ button{
         padding-top: 0px;
     }
 
+    .form{
+        width: 480px;
+        height: 550px;
+        top: 4108px;
+        left: 20px;
+        padding-bottom: 5rem;
+
+    }
+    .fee{
+        width: 330px;
+        height: 373px;
+        top: 4108px;
+        left: 20px;
+    }
 }
